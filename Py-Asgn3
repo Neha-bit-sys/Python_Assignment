@@ -1,0 +1,41 @@
+Q1:
+value_1 = input('Enter first value')
+value_2 = input('Enter second value')
+operator = input('Enter operator')
+
+if operator == '+':
+    Value = value_1+value_2
+    print(value_1,'answer')
+elif operator == '-':
+    Value=value_1-value_2
+    print (value,'answer')
+elif operator == '*':
+    Value = value_1*value_2
+    print(value,'answer')
+elif operator == '/':
+    Value = value_1/value_2
+    print(value,'answer')
+Q2:
+key = input("Please enter the Key : ")
+value = input("Please enter the Value : ")
+
+myDict = {}
+myDict.update({key:value})
+print("\nUpdated Dictionary = ", myDict)
+
+Q3:
+myDict = {'x': 250, 'y':500, 'z':410}
+print("Dictionary: ", myDict)
+print("\nSum of Values: ", sum(myDict.values()))
+
+Q4:
+myDict = {'a': 'apple', 'b': 'Banana' , 'o': 'Orange', 'm': 'Mango'}
+print("Dictionary : ", myDict)
+
+key = input("Please enter the Key you want to search for: ")
+
+if key in myDict.keys():
+    print("\nKey Exists in this Dictionary")
+    print("Key = ", key, " and Value = ", myDict[key])
+else:
+    print("\nKey Does not Exists in this Dictionary")
