@@ -1,0 +1,34 @@
+
+Question#1:Define Object Oriented Programming Language?
+
+An object-oriented programming language (OOPL) is a high-level programming language based on the object-oriented model. 
+To perform object-oriented programming, one needs an object-oriented programming language.  
+ Many modern programming languages are object-oriented, however some older programming languages, such as Pascal, do offer object-oriented versions.
+ Examples of object-oriented programming languages include Java, C++ and Smalltalk.
+
+Question#2:List down the Benefits of OOP?
+
+1)Modularity for easier troubleshooting.
+2)Reuse of code through inheritance.
+3)Flexibility through polymorphism.
+4)Effective problem solving.
+
+Question#3:
+
+FUNCTION:
+A function is a piece of code that is called by name. It can be passed data to operate on (i.e. the parameters) and can optionally return data (the return value). 
+All data that is passed to a function is explicitly passed.
+METHOD:
+A method is a piece of code that is called by a name that is associated with an object. 
+In most respects it is identical to a function except for two key differences.
+A method is implicitly passed the object on which it was called.
+A method is able to operate on data that is contained within the class 
+(remembering that an object is an instance of a class - the class is the definition,
+ the object is an instance of that data).
+
+Question#4:
+
+CLASS:
+In Python, classes are templates. They help you standardize and organize information.
+ATTRIBUTE:
+Is used for entering individual data.
